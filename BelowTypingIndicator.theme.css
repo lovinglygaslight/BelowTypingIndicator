@@ -2,7 +2,7 @@
  * @name BelowTypingIndicator
  * @description Moves the "User is typing..." indicator back to below the input box
  * @author RurinGas
- * @version 0.1.0
+ * @version 0.1.1
  * @source https://github.com/lovinglygaslight/BelowTypingIndicator
  */
 
@@ -28,4 +28,10 @@
 
 .align-chat-input .scrollerSpacer__36d07 {
     height: 25px;
+
+}
+
+/* SHOVING JUMP TO MESSAGE BAR UP */
+.bottomBar__0f481 {
+    bottom: 15px !important;
 }
