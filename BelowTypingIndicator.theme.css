@@ -1,0 +1,31 @@
+/**
+ * @name BelowTypingIndicator
+ * @description Moves the "User is typing..." indicator back to below the input box
+ * @author RurinGas
+ * @version 0.1.0
+ * @source https://github.com/lovinglygaslight/BelowTypingIndicator
+ */
+
+/* THE ACTUAL TYPING INDICATOR */
+.typing_b88801 {
+    position: inherit;
+    margin-bottom: -22px;
+    margin-left: -16px;
+    margin-top: -2px;
+}
+
+
+/* MAKING SPACE FOR THE TYPING INDICATOR SO THE INPUT BOX DOES NOT JUMP AROUND */
+.channelTextArea_f75fb0.channelTextArea__74017 {
+    margin-bottom: 25px;
+}
+
+
+/* REMOVING UGLY SPACING ABOVE INPUT BOX */
+.align-chat-input .form_f75fb0 {
+    margin-top: -20px;
+}
+
+.align-chat-input .scrollerSpacer__36d07 {
+    height: 25px;
+}
